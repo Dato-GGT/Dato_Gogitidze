@@ -1,0 +1,268 @@
+:root {
+    --color-1: antiquewhite;
+    --background: #181513;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--color-1);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    user-select: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+svg path {
+    fill: var(--color-1);
+}
+
+.header {
+    padding: 100px 0 50px;
+    border-bottom: 3px solid #faebd733;
+}
+
+.personal-info {
+    margin-bottom: 50px;
+}
+
+.name {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.position {
+    font-size: 30px;
+    color: #799f67;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-links .contact-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid var(--color-1);
+    transition: .3s;
+}
+
+.contact-link span {
+    white-space: nowrap;
+}
+
+.contact-link.linkedin, .contact-link.linkedin svg path {
+    color: #0a66c2;
+    fill: #0a66c2;
+    border-color: #0a66c2;
+    background-color: rgba(10, 102, 194, 0.2);
+}
+
+.contact-link.gmail, .contact-link.gmail svg path {
+    color: #d44638;
+    fill: #d44638;
+    border-color: #d44638;
+    background-color: rgba(212, 70, 56, 0.2);
+}
+
+.contact-link.tg, .contact-link.tg svg path {
+    color: #0088CC;
+    fill: #0088CC;
+    border-color: #0088CC;
+    background-color: rgba(0, 136, 204, 0.2);
+}
+
+.contact-links div.contact-link, .contact-links div.contact-link svg path {
+    color: #799f67;
+    fill: #799f67;
+    border-color: #799f67;
+    background-color: rgba(121, 159, 103, 0.2);
+}
+
+div.contact-links:hover {
+    cursor: none;
+}
+
+.contact-links a:hover {
+    scale: 1.1;
+    background-color: transparent;
+}
+
+.main {
+    padding: 100px 0;
+}
+
+.main-item {
+    display: flex;
+    gap: 100px;
+    padding: 50px 0;
+    border-bottom: 3px solid #faebd733;;
+}
+
+.title {
+    font-weight: bold;
+    width: 130px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-content:not(:first-child) {
+    margin-top: 80px;
+}
+
+.content-title span {
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    align-self: flex-start;
+}
+
+.time span {
+    white-space: nowrap;
+}
+
+.content-description {
+    margin-top: 30px;
+}
+
+.content-description ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-description.skills ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    justify-content: flex-start;
+}
+
+span.skill {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: 1px solid var(--color-1);
+}
+
+.lang-button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid var(--color-1);
+    background-color: var(--background);
+    color: var(--color-1);
+    cursor: pointer;
+    width: 55px;
+    text-align: center;
+    transition: .5s;
+}
+
+.lang-button:hover {
+    background-color: #59534e;
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1299px) {
+    body {
+        padding: 0 30px;
+    }
+    .container {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 929px) {
+    .contact-links {
+        flex-direction: column;
+    }
+    .contact-link {
+        width: 45%;
+    }
+    .main {
+        padding: 20px 0 50px 0;
+    }
+    .main-item {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 0;
+    }
+    .title {
+        width: unset;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 50px 0 50px;
+    }
+    .contact-link {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+    .content-description.skills ul {
+        flex-direction: column;
+    }
+    .lang-button {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+@media screen and (max-width: 499px) {
+    body {
+        padding: 0 15px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .position {
+        font-size: 25px;
+    }
+}

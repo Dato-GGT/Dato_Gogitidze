@@ -6,9 +6,10 @@
 * {
     margin: 0;
     padding: 0;
-    user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+}
+
+*:not(button):not(a) {
+    cursor: default;
 }
 
 body {

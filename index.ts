@@ -25,7 +25,7 @@ const translations: Record<LanguageType, LangData> = {
         skillsDescription1: `
             <li>Spot trading</li>
             <li>Futures trading</li>
-            <li>Portfolio investings</li>
+            <li>Portfolio investing</li>
             <li>Investing ICO / IDO / IEO / Pools</li>
             <li>NFT / Airdrop / Retrodrop</li>
             <li>Multi-accounting / Accounts for sale (OTC chats)</li>
@@ -41,22 +41,22 @@ const translations: Record<LanguageType, LangData> = {
         `,
     },
     ru: {
-        name: 'Дато Гогитизде',
+        name: 'Дато Гогитидзе',
         position: 'Финансовый менеджер',
-        location: 'Грузия, Бутуми',
+        location: 'Грузия, Батуми',
         education: 'Образование',
-        educationDescription: '<span>Международный Черноморский университет</span> – Бизнес-администрирование, финансовый менеджмент',
+        educationDescription: '<span>Международный Черноморский Университет</span> – Бизнес-администрирование, финансовый менеджмент',
         experience: 'Опыт',
         experienceTitle1: 'Самостоятельная торговля',
         experienceDescription1: 'Торговля на рынке forex валютными и товарными парами;<br>Торговля криптовалютой (CEX/DEX) в рамках соглашения о неразглашении информации',
-        experienceTitle2: '<span>ООО Консалтинговая Группа</span> – Финансовый менеджер',
+        experienceTitle2: '<span>ООО Консалтинг Груп</span> – Финансовый менеджер',
         experienceDescription2: `
             <li>Мониторинг клиентской торговли</li>
             <li>Написание ежедневного/еженедельного отчета</li>
             <li>Открытие торговых счетов</li>
             <li>Торговля на финансовых рынках с использованием различных инструментов</li>
-            <li>Торговля с ботами с использованием различных стратегий</li>
-            <li>Операции с криптовалютой, P2P-переводы, стейкинг</li>
+            <li>Торговля ботами</li>
+            <li>Операции с криптовалютой, P2P, стейкинг</li>
             <li>Поддержка общения с клиентами</li>
             <li>Консультирование клиентов / Управление взаимоотношениями</li>
             <li>Анализ/прогнозирование международных финансовых рынков</li>
@@ -81,23 +81,23 @@ const translations: Record<LanguageType, LangData> = {
             <li><span class="skill">Турецкий</span> – Начинающий</li>
         `,
     },
-    ge: {
+    ka: {
         name: 'დათო გოგიტიძე',
         position: 'ფინანსური მენეჯერი',
         location: 'საქართველო, ბათუმი',
         education: 'განათლება',
         educationDescription: '<span>შავი ზღვის საერთაშორისო უნივერსიტეტი</span> – ბიზნესის ადმინისტრირება, ფინანსური მენეჯმენტი',
         experience: 'გამოცდილება',
-        experienceTitle1: 'თვით მოვაჭრე',
-        experienceDescription1: 'ვაჭრობა ფორექსის ბაზარზე ვალუტისა და სასაქონლო წყვილებით;<br>ვაჭრობა კრიპტოვალუტით (CEX/DEX) NDA ხელშეკრულებით',
-        experienceTitle2: '<span>შპს საკონსულტაციო ჯგუფი</span> - ფინანსური მენეჯერი',
+        experienceTitle1: 'თვით ვაჭრობა',
+        experienceDescription1: 'ვაჭრობა ფორექსის ბაზარზე ვალუტისა და სასაქონლო ერთეულებით;<br>ვაჭრობა კრიპტოვალუტით (CEX/DEX) NDA ხელშეკრულებით',
+        experienceTitle2: '<span>შპს კონსალტინგ გრუფ</span> - ფინანსური მენეჯერი',
         experienceDescription2: `
-            <li>კლიენტებთან ვაჭრობის მონიტორინგი</li>
-            <li>ყოველდღიური/კვირეული ანგარიშის წერა</li>
+            <li>კლიენტების ვაჭრობის მონიტორინგი</li>
+            <li>ყოველდღიური/კვირეული მიმოხილვის დაწერა</li>
             <li>სავაჭრო ანგარიშების გახსნა</li>
             <li>ვაჭრობა ფინანსურ ბაზრებზე სხვადასხვა ინსტრუმენტებით</li>
-            <li>ვაჭრობა ბოტებთან სხვადასხვა სტრატეგიის გამოყენებით</li>
-            <li>ოპერაციები კრიპტოვალუტაში, P2P გადარიცხვები, ფსონინგი</li>
+            <li>ვაჭრობა ბოტებით სხვადასხვა სტრატეგიის გამოყენებით</li>
+            <li>ოპერაციები კრიპტოვალუტაში, P2P, სთექინგი</li>
             <li>მომხმარებელთა კომუნიკაციის მხარდაჭერა</li>
             <li>კლიენტთა კონსულტაცია / ურთიერთობის მენეჯმენტი</li>
             <li>საერთაშორისო ფინანსური ბაზრების ანალიზი/პროგნოზირება</li>
@@ -105,26 +105,26 @@ const translations: Record<LanguageType, LangData> = {
         skills: 'უნარები',
         skillsTitle1: '<span>პროფესიული უნარები</span>',
         skillsDescription1: `
-            <li>ადგილზე ვაჭრობა</li>
+            <li>სპოტ ვაჭრობა</li>
             <li>ფიუჩერსებით ვაჭრობა</li>
             <li>პორტფელის ინვესტიციები</li>
             <li>ინვესტიცია ICO / IDO / IEO / Pools</li>
             <li>NFT / Airdrop / Retrodrop</li>
-            <li>მრავალსაანგარიშო / ანგარიშები იყიდება (OTC ჩეთები)</li>
-            <li>დადგომა / ფერმერობა / თამაში-მოპოვება / გადაადგილება-მოპოვება</li>
+            <li>მულთიექაუნთინგი / ექაუნთების გაყიდვა (OTC ჩათები)</li>
+            <li>სთეიქინგი / ფარმინგი / Play-to-earn / Move-to-earn</li>
             <li>სავაჭრო ბოტი (Veles)</li>
         `,
         skillsTitle2: '<span>ენები</span>',
         skillsDescription2: `
-            <li><span class="skill">ინგლისური</span> – ზედა-შუალედური</li>
-            <li><span class="skill">ქართული</span> – სრული ცოდნა</li>
-            <li><span class="skill">რუსული</span> – სრული ცოდნა</li>
+            <li><span class="skill">ინგლისური</span> – Upper-Intermediate</li>
+            <li><span class="skill">ქართული</span> – სრული</li>
+            <li><span class="skill">რუსული</span> – სრული</li>
             <li><span class="skill">თურქული</span> – დამწყები</li>
         `,
     }
 };
 
-type LanguageType = 'en' | 'ru' | 'ge';
+type LanguageType = 'en' | 'ru' | 'ka';
 interface LangData {
     name: string,
     position: string,
@@ -172,8 +172,9 @@ class Data {
 
     private setLanguage(): void {
         const language: string | null = localStorage.getItem('language');
-        if (language !== null && (language === 'en' || language === 'ru' || language === 'ge')) {
+        if (language !== null && (language === 'en' || language === 'ru' || language === 'ka')) {
             this.language = language;
+            document.documentElement.lang = language;
             if (this.changeLanguageButton) this.changeLanguageButton.innerText = this.language;
         }
     }
@@ -208,14 +209,15 @@ class Data {
                     this.language = 'ru';
                     break;
                 case 'ru':
-                    this.language = 'ge';
+                    this.language = 'ka';
                     break;
-                case 'ge':
+                case 'ka':
                     this.language = 'en';
                     break;
             }
             localStorage.setItem('language', this.language);
             this.changeLanguageButton.innerText = this.language;
+            document.documentElement.lang = this.language;
             this.fillData();
         }
     }

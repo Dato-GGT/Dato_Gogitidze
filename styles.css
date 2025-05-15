@@ -102,10 +102,6 @@ svg path {
     background-color: rgba(121, 159, 103, 0.2);
 }
 
-div.contact-links:hover {
-    cursor: none;
-}
-
 .contact-links a:hover {
     scale: 1.1;
     background-color: transparent;
@@ -206,6 +202,12 @@ span.skill {
 .lang-button:hover {
     background-color: #59534e;
     scale: 1.1;
+}
+
+@media screen and (hover: none) {
+    .contact-links a:hover, .lang-button:hover {
+        scale: unset;
+    }
 }
 
 @media screen and (max-width: 1299px) {
